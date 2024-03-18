@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sbc-calculator/static/css/main.7577dbe4.css",
+    "main.js": "/sbc-calculator/static/js/main.b645c245.js",
+    "index.html": "/sbc-calculator/index.html",
+    "main.7577dbe4.css.map": "/sbc-calculator/static/css/main.7577dbe4.css.map",
+    "main.b645c245.js.map": "/sbc-calculator/static/js/main.b645c245.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7577dbe4.css",
+    "static/js/main.b645c245.js"
+  ]
+}
