@@ -1,0 +1,200 @@
+.page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #404258;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.header h1 {
+    color: #55cca2;
+}
+
+.cards {
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    position: relative;
+    width: 180px;
+    height: 210px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card h3{
+    margin-top: 32px !important;
+}
+
+.card h3,
+h4 {    
+    
+    color: #404258;
+    margin: 0;
+}
+
+.card h4{
+    font-size: 32px;
+}
+
+
+.card p {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #55cca2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #7bd8b7;
+}
+
+.calculate-btn {
+    width: 20%;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #55cca2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.calculate-btn:hover{
+    background-color: #7bd8b7;
+}
+
+.result-div{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.result-div-h3{
+    margin: 0;
+    color: white;
+}
+
+.result-div-h3-main{
+    margin: 0;
+    color: white;
+    font-size: 32px;
+    padding: 2px 8px;
+    background-color: #55cca2;
+    border-radius: 5px;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-p{
+    color: white;
+    margin: 0;
+
+}
+
+.details-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #55cca2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.details-btn:hover{
+    background-color: #7bd8b7;
+}
+
+.copy-paste-div{
+    position: absolute;
+    display: flex;
+    right: 10px;
+    top: 10px;
+    gap: 8px;
+
+}
+
+.copy-div, .paste-div{
+    background-color: rgb(224, 224, 224);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.copy-div:hover, .paste-div:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+.copy-div img{
+    width: 28px;
+}
+.paste-div img{
+    width: 28px;
+}
